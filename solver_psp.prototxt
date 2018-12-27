@@ -1,0 +1,15 @@
+train_net: "/home2/nepal_national/psp_123_456.prototxt"
+iter_size: 8
+lr_policy: "poly"
+power: 0.9
+base_lr: 0.001
+
+# average_loss: 20
+display: 50
+max_iter: 200000
+momentum: 0.9
+weight_decay: 0.0001
+
+snapshot: 20000
+snapshot_prefix: "/home2/nepal_national/psp_123_456_"
+solver_mode: GPU
